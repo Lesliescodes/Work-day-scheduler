@@ -12,75 +12,83 @@
   <link rel="stylesheet" href="style.css" />
   <title>Work Day Scheduler</title>
 </head>
-
 <body>
+
   <header class="jumbotron">
     <h1 class="display-3">Work Day Scheduler</h1>
-    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p class="lead">Scheduling your work day made simple</p>
     <p id="currentDay" class="lead"></p>
   </header>
   <!-- Timeblocks go here -->
-
-  <div class="container">
+<div class="container">
     <div class="row time-block" id="6">
       <div class="col-1 hour">6AM</div>
       <textarea class="col-10 textarea"></textarea>
       <button class="col-1 saveBtn"><i class="far fa-save"></i></button>
     </div>
-    <div class="row time-block" id="7"></div>
-<div class="col-1 hour">7am</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="8"></div>
-<div class="col-1 hour">8am</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="9"></div>
-<div class="col-1 hour">9am</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="10"></div>
-<div class="col-1 hour">10am</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="11"></div>
-<div class="col-1 hour">11am</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="12"></div>
-<div class="col-1 hour">12pm</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="1"></div>
-<div class="col-1 hour">1pm</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="2"></div>
-<div class="col-1 hour">2pm</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-<div class="row time-block" id="3"></div>
-<div class="col-1 hour">3pm</div>
-<textarea class="col-10 textarea"></textarea>
-<button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
-</div>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="./assets/js/script.js"></script>
+  <div class="row time-block" id="7">
+    <div class="col-1 hour">7am</div>
+    <textarea class="col-10 textarea"></textarea>
+    <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="8">
+  <div class="col-1 hour">8am</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="9">
+  <div class="col-1 hour">9am</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="10">
+  <div class="col-1 hour">10am</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="11">
+  <div class="col-1 hour">11am</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="12">
+  <div class="col-1 hour">12pm</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="1">
+  <div class="col-1 hour">1pm</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="2">
+  <div class="col-1 hour">2pm</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+
+  <div class="row time-block" id="3">
+  <div class="col-1 hour">3pm</div>
+  <textarea class="col-10 textarea"></textarea>
+  <button class="col-1 saveBtn"> <i class="far fa-save"></i></button>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

@@ -11,10 +11,29 @@ $(".saveBtn").click(function () {
   //retrieve the data
 $(".time-block").each(function () {
     console.log($(".time-block"));
-    var honeyBunchesOfOats = $(this).attr("id");
-    var keyEl = localStorage.getItem(honeyBunchesOfOats);
+    var queenLeslie = $(this).attr("id");
+    var keyEl = localStorage.getItem(queenLeslie);
     if (keyEl !== null) {
       $(this).children(".textarea").val(keyEl);
     }
   });
-  
+  //update color based upon how close the deadline is 
+function urgencyNotifier() {
+    hour = time.hours();
+    $(".time-block").each(function() {
+        var currentHour = parseInt($(this).attr("id")); 
+        if (currentHour > hour) {
+          $(this).removeClass(["past", "present"]).addClass("future");
+        } 
+        else if (currentHour === hour) {
+          $(this).removeClass(["past", "future"]).addClass("present");
+        } 
+        else {
+          $(this).removeClass(["present", "future"]).addClass("past");
+        }
+    });
+  }
+  //utilizes moment.js
+  var time = moment();
+  //runs urgencyNotifier function
+  urgencyNotifier();
