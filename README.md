@@ -20,3 +20,5 @@ Git pages link: https://lesliescodes.github.io/Work-day-scheduler/
   <li> Git Bash </li>
   <li> Iconic Libraries </li>
  </ul>
+ 
+![05-third-party-apis-homework-demo](https://user-images.githubusercontent.com/84750526/131236083-7f2c5dc1-b677-4989-8603-981d4697b18c.gif)
