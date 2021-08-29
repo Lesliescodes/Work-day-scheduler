@@ -11,7 +11,8 @@
 <h3> Links <h3>  
 Git pages link: https://lesliescodes.github.io/Work-day-scheduler/
  <h3> Technologies Used </h3>
- <ul>
+ 
+ <ul> 
   <li> HTML </li>
   <li> CSS </li>
   <li> JavaScript </li>
