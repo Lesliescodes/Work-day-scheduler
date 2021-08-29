@@ -10,3 +10,13 @@
   </ul>
 <h3> Links <h3>  
 Git pages link: https://lesliescodes.github.io/Work-day-scheduler/
+ <h3> Technologies Used </h3>
+ <ul>
+  <li> HTML </li>
+  <li> CSS </li>
+  <li> JavaScript </li>
+  <li> Bootstrap Libraries </li>
+  <li> Visual Studio Code <li>
+  <li> Git Bash </li>
+  <li> Iconic Libraries </li>
+ </ul>
